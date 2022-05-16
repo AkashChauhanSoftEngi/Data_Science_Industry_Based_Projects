@@ -15,3 +15,6 @@ pip install tensorflow==1.14.0
 pip install protobuf==3.17.3
 
 pip install pillow==6.2.2
+
+
+In the future, when we want to run this web app again, we just need to (1)switch to the directory Image-Classification-App and create the virtual environment again in this project directory, (2) activate the virtual environment (3) install the necessary packages (4) and run the app, as mentioned in the corresponding slides.
