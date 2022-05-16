@@ -1,0 +1,17 @@
+cd ~
+cd Image-Classification-App
+
+virtualenv Img-Class-Env
+source Img-Class-Env/bin/activate
+
+
+pip install Flask==1.1.2
+python -m pip install --upgrade setuptools
+
+pip install --no-cache-dir  --force-reinstall -Iv grpcio==1.11.0
+
+pip install tensorflow==1.14.0
+
+pip install protobuf==3.17.3
+
+pip install pillow==6.2.2
